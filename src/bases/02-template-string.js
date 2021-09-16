@@ -10,7 +10,14 @@ const nombreCompleto2 = 'Hola Mundo';
 const nombreCompletoModerno = `${nombre} ${apellido}`;  //Signo como de acento. no comillas simple o doble
 //Se llama String template
 
+const nombreCompletoModerno2 = `
+${nombre} 
+${apellido}
+${1 + 1}`;
+
+
 console.log(nombreCompletoModerno);
+console.log(nombreCompletoModerno2);
 console.log(nombreCompleto2);
 console.log(nombreCompleto);
 
